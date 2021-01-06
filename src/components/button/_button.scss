@@ -1,0 +1,29 @@
+.button {
+    --button-height: 40px;
+  
+    font-family: var(--font-family);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  
+    &.blue {
+      --button-bg: var(--ocean-blue);
+  
+      &.ghost {
+        --button-bg: transparent;
+        --button-color: var(--ocean-blue);
+  
+        border: 1px solid var(--ocean-blue);
+  
+        transition: all 0.3s;
+  
+        &:hover {
+          --button-bg: var(--ocean-blue);
+          --button-color: white;
+        }
+      }
+    }
+  
+  }
+  

@@ -1,0 +1,19 @@
+.input {
+    --default-border-color: transparent;
+    --small-radius-size: 6px;
+  
+    background-color: var(--light-gray);
+  
+    font-family: var(--font-family);
+  
+    &.text-area {
+      --input-height: auto;
+  
+      width: 100%;
+  
+      padding: 14px;
+  
+      resize: vertical;
+    }
+  }
+  

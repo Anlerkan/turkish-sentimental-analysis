@@ -1,0 +1,138 @@
+
+@import "../../../core/ui/style/reference/media-query";
+
+.page-header.authenticated {
+  .page-header-body {
+    @include for-small-devices {
+      grid-template-columns: 91px 1fr;
+
+      padding: 0 20px;
+
+      .page-header-navigation {
+        display: none;
+      }
+    }
+
+    display: grid;
+    grid-template-columns: 1fr 91px 1fr;
+  }
+}
+.container{
+    padding: 0 20px;
+}
+.page-header-logo{
+    align-self: center;
+    justify-content: center;
+}
+
+.page-header-navigation {
+  @include for-small-devices {
+    justify-content: center;
+  }
+
+  display: flex;
+  gap: 22px;
+
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.page-bottom-navigation-bar {
+  @include for-medium-and-above-devices {
+    display: none;
+  }
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  background-color: white;
+
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.04), 0 -1px 0 var(--athens-gray);
+}
+
+.page-header-navigation-list-item-anchor {
+  @include for-small-devices {
+    justify-content: center;
+
+    height: 60px;
+
+    padding-top: 5px;
+
+    font-size: 13px;
+  }
+
+  @include for-medium-and-above-devices {
+    align-items: center;
+    grid-template-columns: 20px 1fr;
+    grid-gap: 10px;
+
+    height: 70px;
+
+    &:hover,
+    &.active {
+      border-bottom-color: var(--ocean-blue);
+    }
+  }
+
+  display: grid;
+
+  padding: 0 13px;
+
+  color: var(--secondary-dark-gray);
+  border-bottom: 2px solid transparent;
+
+  transition: all 0.3s;
+
+  &:hover,
+  &.active {
+    color: var(--ocean-blue);
+
+    .page-header-navigation-list-item-anchor-icon path {
+      fill: var(--ocean-blue);
+    }
+  }
+}
+
+.page-header-navigation-list-item-avatar,
+.page-header-navigation-list-item-anchor-icon {
+  @include for-small-devices {
+    margin: auto;
+  }
+}
+
+.page-header-side-navigation {
+  display: grid;
+  align-items: center;
+  justify-content: flex-end;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+.page-header.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  animation: slidein-header 0.4s ease-in-out;
+}
+
+body.ReactModal__Body--open {
+  .page-header.sticky,
+  .page-bottom-navigation-bar {
+    display: none;
+  }
+}
+
+@keyframes slidein-header {
+  from {
+    transform: translateY(-80px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

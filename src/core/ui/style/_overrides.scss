@@ -1,0 +1,58 @@
+@import "./reference/media-query";
+
+:root {
+  --font-family: "Proxima Nova";
+  --tag-bg: var(--gold);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+
+  text-size-adjust: none;
+}
+
+input,
+textarea {
+  &:active {
+    @include for-small-devices {
+      // To disable mobile browser's auto-zoom
+
+      font-size: 16px;
+    }
+  }
+}
+
+html,
+body {
+  color: var(--black);
+
+  font-family: var(--font-family);
+  font-size: 13px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Prospectus L";
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 50px;
+}
+
+a {
+  color: var(--ocean-blue);
+
+  text-decoration: none;
+}

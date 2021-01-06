@@ -1,0 +1,71 @@
+@import "../../../core/ui/style/reference/media-query";
+@import "../../../core/ui/style/reference/color";
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 30px;
+  @include for-small-devices {
+      margin: 60px auto;
+  }
+}
+.page-footer-logo{
+  @include for-small-devices{
+    display: none;
+  }
+}
+.page-footer-body {
+  text-align: center;
+}
+.authors {
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.page-footer-links-title {
+  @include for-medium-and-above-devices {
+    margin-left: 0;
+
+    text-align: center;
+  }
+
+  margin: 13.6px;
+
+  color: var(--secondary-dark-gray);
+
+  font-family: "Proxima Nova";
+
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 13.4px;
+
+  text-align: center;
+
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+}
+.page-footer-link {
+  @include for-small-devices {
+    text-align: center;
+  }
+  &:hover{
+      text-decoration: underline;
+  }
+  align-items: center;
+  display: inline;
+  text-align: center;
+  color: var(--black);
+
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+
+  line-height: 26px;
+  text-decoration: none;
+}
+.page-footer-year{
+    text-align: center;
+}

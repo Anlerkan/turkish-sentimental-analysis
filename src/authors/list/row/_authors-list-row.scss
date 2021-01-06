@@ -1,0 +1,44 @@
+.author-list-row {
+  background-color: var(--secondary-light-gray);
+  margin: 20px;
+  border-radius: 80px;
+  display: grid;
+  grid-template-columns: 100px auto;
+  font-size: 18px;
+  text-align: center;
+  &:hover{
+    box-shadow: 4px 4px 8px var(--ocean-blue);
+  }
+
+}
+.author-list-row-avatar {
+  display: inline;
+}
+.author-list-row-info {
+  justify-content: center;
+}
+
+.author-list-row-item {
+  margin: 5px auto;
+  &:hover {
+    text-decoration: underline;
+    color: var(--ocean-blue);
+  }
+}
+.username {
+  font-size: 25px;
+  font-weight: 900;
+  &:hover {
+    text-decoration: none;
+    color: var(--black);
+  }
+}
+.icon {
+  margin-right: 5px;
+}
+.location {
+  &:hover {
+    text-decoration: none;
+    color: var(--black);
+  }
+}

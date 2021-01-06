@@ -1,0 +1,28 @@
+@import "../../core/ui/style/reference/media-query";
+
+.authors-list {
+  margin: 50px;
+  @include for-small-devices {
+    margin: 0;
+  }
+  text-align: center;
+}
+.authors-list-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  @include for-small-devices {
+    grid-template-columns: 1fr;
+  }
+}
+.authors-list-title {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 900;
+  margin: 10px auto;
+}
+.authors-list-contribute{
+    &:hover{
+        color: var(--ocean-blue);
+        text-decoration: underline;
+    }
+}
