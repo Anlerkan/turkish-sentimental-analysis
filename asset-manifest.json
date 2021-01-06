@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/turkish-sentimental-analysis/static/css/main.afa519ac.chunk.css",
+    "main.js": "/turkish-sentimental-analysis/static/js/main.d433093c.chunk.js",
+    "main.js.map": "/turkish-sentimental-analysis/static/js/main.d433093c.chunk.js.map",
+    "runtime-main.js": "/turkish-sentimental-analysis/static/js/runtime-main.cf23d4ae.js",
+    "runtime-main.js.map": "/turkish-sentimental-analysis/static/js/runtime-main.cf23d4ae.js.map",
+    "static/css/2.2c7a6733.chunk.css": "/turkish-sentimental-analysis/static/css/2.2c7a6733.chunk.css",
+    "static/js/2.0b522512.chunk.js": "/turkish-sentimental-analysis/static/js/2.0b522512.chunk.js",
+    "static/js/2.0b522512.chunk.js.map": "/turkish-sentimental-analysis/static/js/2.0b522512.chunk.js.map",
+    "static/js/3.71dd3bfd.chunk.js": "/turkish-sentimental-analysis/static/js/3.71dd3bfd.chunk.js",
+    "static/js/3.71dd3bfd.chunk.js.map": "/turkish-sentimental-analysis/static/js/3.71dd3bfd.chunk.js.map",
+    "index.html": "/turkish-sentimental-analysis/index.html",
+    "static/css/2.2c7a6733.chunk.css.map": "/turkish-sentimental-analysis/static/css/2.2c7a6733.chunk.css.map",
+    "static/css/main.afa519ac.chunk.css.map": "/turkish-sentimental-analysis/static/css/main.afa519ac.chunk.css.map",
+    "static/js/2.0b522512.chunk.js.LICENSE.txt": "/turkish-sentimental-analysis/static/js/2.0b522512.chunk.js.LICENSE.txt",
+    "static/media/blog.e8f7afb0.svg": "/turkish-sentimental-analysis/static/media/blog.e8f7afb0.svg",
+    "static/media/company.b4ac1f84.svg": "/turkish-sentimental-analysis/static/media/company.b4ac1f84.svg",
+    "static/media/doc.1993fbf4.svg": "/turkish-sentimental-analysis/static/media/doc.1993fbf4.svg",
+    "static/media/heart.b56f9255.svg": "/turkish-sentimental-analysis/static/media/heart.b56f9255.svg",
+    "static/media/info.765e2b90.svg": "/turkish-sentimental-analysis/static/media/info.765e2b90.svg",
+    "static/media/location.9966cd74.svg": "/turkish-sentimental-analysis/static/media/location.9966cd74.svg",
+    "static/media/logo.550854c2.svg": "/turkish-sentimental-analysis/static/media/logo.550854c2.svg",
+    "static/media/_font.scss": "/turkish-sentimental-analysis/static/media/proxima_nova_semibold-webfont.e3b963ad.woff2",
+    "static/media/search.92ee0c21.svg": "/turkish-sentimental-analysis/static/media/search.92ee0c21.svg",
+    "static/media/twitter.70ee8d5e.svg": "/turkish-sentimental-analysis/static/media/twitter.70ee8d5e.svg",
+    "static/media/user.182ff4ce.svg": "/turkish-sentimental-analysis/static/media/user.182ff4ce.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf23d4ae.js",
+    "static/css/2.2c7a6733.chunk.css",
+    "static/js/2.0b522512.chunk.js",
+    "static/css/main.afa519ac.chunk.css",
+    "static/js/main.d433093c.chunk.js"
+  ]
+}
