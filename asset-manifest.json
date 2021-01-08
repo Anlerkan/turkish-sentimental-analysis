@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/turkish-sentimental-analysis/static/css/main.afa519ac.chunk.css",
-    "main.js": "/turkish-sentimental-analysis/static/js/main.d433093c.chunk.js",
-    "main.js.map": "/turkish-sentimental-analysis/static/js/main.d433093c.chunk.js.map",
+    "main.js": "/turkish-sentimental-analysis/static/js/main.1c077a89.chunk.js",
+    "main.js.map": "/turkish-sentimental-analysis/static/js/main.1c077a89.chunk.js.map",
     "runtime-main.js": "/turkish-sentimental-analysis/static/js/runtime-main.cf23d4ae.js",
     "runtime-main.js.map": "/turkish-sentimental-analysis/static/js/runtime-main.cf23d4ae.js.map",
     "static/css/2.2c7a6733.chunk.css": "/turkish-sentimental-analysis/static/css/2.2c7a6733.chunk.css",
-    "static/js/2.0b522512.chunk.js": "/turkish-sentimental-analysis/static/js/2.0b522512.chunk.js",
-    "static/js/2.0b522512.chunk.js.map": "/turkish-sentimental-analysis/static/js/2.0b522512.chunk.js.map",
+    "static/js/2.141e6036.chunk.js": "/turkish-sentimental-analysis/static/js/2.141e6036.chunk.js",
+    "static/js/2.141e6036.chunk.js.map": "/turkish-sentimental-analysis/static/js/2.141e6036.chunk.js.map",
     "static/js/3.71dd3bfd.chunk.js": "/turkish-sentimental-analysis/static/js/3.71dd3bfd.chunk.js",
     "static/js/3.71dd3bfd.chunk.js.map": "/turkish-sentimental-analysis/static/js/3.71dd3bfd.chunk.js.map",
     "index.html": "/turkish-sentimental-analysis/index.html",
     "static/css/2.2c7a6733.chunk.css.map": "/turkish-sentimental-analysis/static/css/2.2c7a6733.chunk.css.map",
     "static/css/main.afa519ac.chunk.css.map": "/turkish-sentimental-analysis/static/css/main.afa519ac.chunk.css.map",
-    "static/js/2.0b522512.chunk.js.LICENSE.txt": "/turkish-sentimental-analysis/static/js/2.0b522512.chunk.js.LICENSE.txt",
+    "static/js/2.141e6036.chunk.js.LICENSE.txt": "/turkish-sentimental-analysis/static/js/2.141e6036.chunk.js.LICENSE.txt",
     "static/media/blog.e8f7afb0.svg": "/turkish-sentimental-analysis/static/media/blog.e8f7afb0.svg",
     "static/media/company.b4ac1f84.svg": "/turkish-sentimental-analysis/static/media/company.b4ac1f84.svg",
     "static/media/doc.1993fbf4.svg": "/turkish-sentimental-analysis/static/media/doc.1993fbf4.svg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.cf23d4ae.js",
     "static/css/2.2c7a6733.chunk.css",
-    "static/js/2.0b522512.chunk.js",
+    "static/js/2.141e6036.chunk.js",
     "static/css/main.afa519ac.chunk.css",
-    "static/js/main.d433093c.chunk.js"
+    "static/js/main.1c077a89.chunk.js"
   ]
 }
