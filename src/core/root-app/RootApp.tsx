@@ -1,7 +1,7 @@
 import "../ui/style/_overrides.scss";
 
 import React, {Suspense} from "react";
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import { Route, Switch, HashRouter} from "react-router-dom";
 import getPublicRouteComponents from "../route/publicRoutes";
 import HomePage from "../../home/page/HomePage";
 import getPublicFallbackRoutes from "../route/fallbackRoutes";
@@ -9,9 +9,9 @@ import getPublicFallbackRoutes from "../route/fallbackRoutes";
 
 function RootApp() {
   return (
-    <BrowserRouter basename={"/"}>
+    <HashRouter basename={"/"}>
       <Route path={"/"} component={AppWithErrorBoundary} />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
