@@ -5,15 +5,15 @@ import {ReactComponent as UserIcon} from "../../../core/ui/icons/user.svg";
 
 import "./_header.scss";
 
-import React from "react";
+import React, {useState} from "react";
 import {NavLink, useHistory} from "react-router-dom";
 import ROUTE_NAMES from "../../../core/route/util/routeNames";
 import {Button} from "@hipo/react-ui-toolkit";
 
 function Header() {
   const history = useHistory();
+  const [isInfoPopupOpen, setIsInfoPopupOpen] = useState(false);
   const navigation = [
-  
     {
       id: "authors",
       to: ROUTE_NAMES.ABOUT.AUTHORS,
@@ -33,7 +33,6 @@ function Header() {
           <DocIcon className={"page-header-navigation-list-item-anchor-icon"} />
 
           {"Doc"}
-         
         </>
       )
     }
@@ -46,8 +45,21 @@ function Header() {
           {renderNavigation()}
           <Logo className={"page-header-logo"} />
           <div className={"page-header-side-navigation"}>
-         
-            <InfoIcon />
+            <InfoIcon
+              className={"info-icon"}
+              onClick={() => setIsInfoPopupOpen(!isInfoPopupOpen)}
+            />
+            <div hidden={!isInfoPopupOpen} className={"page-header-info-popup"}>
+              <div className={"page-header-info-popup-body"}>
+                <p className={"page-header-info-popup-title"}>{"How it works?"}</p>
+                <p className={"page-header-info-popup-info"}>
+                  {"1. Write your sentence!"}
+                </p>
+                <br />
+
+                <p className={"page-header-info-popup-info"}>{"2. Get your result."}</p>
+              </div>
+            </div>
             <Button customClassName={"blue"} onClick={handleGoToHome}>
               {"Compute"}
             </Button>

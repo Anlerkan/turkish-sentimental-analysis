@@ -1,4 +1,3 @@
-
 @import "../../../core/ui/style/reference/media-query";
 
 .page-header.authenticated {
@@ -17,12 +16,12 @@
     grid-template-columns: 1fr 91px 1fr;
   }
 }
-.container{
-    padding: 0 20px;
+.container {
+  padding: 0 20px;
 }
-.page-header-logo{
-    align-self: center;
-    justify-content: center;
+.page-header-logo {
+  align-self: center;
+  justify-content: center;
 }
 
 .page-header-navigation {
@@ -135,4 +134,38 @@ body.ReactModal__Body--open {
   to {
     transform: translateY(0);
   }
+}
+
+.page-header-info-popup {
+  position: absolute;
+  right: 200px;
+  margin-top: 50px;
+  background-color: var(--ocean-blue);
+  border-radius: 20px;
+  opacity: 0.8;
+  @include for-small-devices {
+    right: 20px;
+    margin-top: 60px;
+  }
+}
+
+.page-header-info-popup-body {
+  padding: 20px;
+  opacity: 1;
+}
+.page-header-info-popup-info {
+  color: white;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.page-header-info-popup-title {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.info-icon-active {
+  fill: red;
 }
