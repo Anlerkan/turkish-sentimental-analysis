@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/turkish-sentimental-analysis/static/css/main.036d7900.chunk.css",
-    "main.js": "/turkish-sentimental-analysis/static/js/main.e9c05646.chunk.js",
-    "main.js.map": "/turkish-sentimental-analysis/static/js/main.e9c05646.chunk.js.map",
+    "main.js": "/turkish-sentimental-analysis/static/js/main.3519c69f.chunk.js",
+    "main.js.map": "/turkish-sentimental-analysis/static/js/main.3519c69f.chunk.js.map",
     "runtime-main.js": "/turkish-sentimental-analysis/static/js/runtime-main.cf23d4ae.js",
     "runtime-main.js.map": "/turkish-sentimental-analysis/static/js/runtime-main.cf23d4ae.js.map",
     "static/css/2.2c7a6733.chunk.css": "/turkish-sentimental-analysis/static/css/2.2c7a6733.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.2c7a6733.chunk.css",
     "static/js/2.0ced597c.chunk.js",
     "static/css/main.036d7900.chunk.css",
-    "static/js/main.e9c05646.chunk.js"
+    "static/js/main.3519c69f.chunk.js"
   ]
 }
